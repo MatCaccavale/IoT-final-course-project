@@ -4,3 +4,4 @@ The goal of the project is to design and implement in TinyOS a lightweight publi
 The nodes can send CONNECT, SUBSCRIBE or PUBLISH messages. In addition there are three topics (TEMPERATURE, HUMIDITY and LUMINOSITY) the nodes can subscribe to and/or publish data on. When a node publishes a message on a topic, this is received by the PAN and forwarded to all nodes that have subscribed to a particular topic.
 The network is simulated in Cooja.
 The PAN coordinator also sends periodically the received data on the topics to ThingsSpeak using NodeRED on the local machine.
+Read the file named Report.pdf for further details.
