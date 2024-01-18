@@ -6,7 +6,7 @@ The network is simulated in Cooja.
 The PAN coordinator also sends periodically the received data on the topics to ThingsSpeak using NodeRED on the local machine.
 Read the file named Report.pdf for further details.
 
-# Content of the repository
+## Content of the repository
 1. PubSub.h: header file that contains types and macros definitions used in the other files.
 2. PubSubAppC.nc: file that containes the implementations of the interfaces used by the motes in the network.
 3. PubSub.h: file that contains the actual implementation of the logic of the motes. Here are implemented the mechanisms that regulate the message exchanges.
