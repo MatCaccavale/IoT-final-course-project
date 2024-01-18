@@ -5,3 +5,10 @@ The nodes can send CONNECT, SUBSCRIBE or PUBLISH messages. In addition there are
 The network is simulated in Cooja.
 The PAN coordinator also sends periodically the received data on the topics to ThingsSpeak using NodeRED on the local machine.
 Read the file named Report.pdf for further details.
+
+# Content of the repository
+1. PubSub.h: header file that contains types and macros definitions used in the other files.
+2. PubSubAppC.nc: file that containes the implementations of the interfaces used by the motes in the network.
+3. PubSub.h: file that contains the actual implementation of the logic of the motes. Here are implemented the mechanisms that regulate the message exchanges.
+4. Thingspeak URL.txt: file that contains the URL of the ThingSpeak channel were data are sent by the Node-RED diagram.
+5. nodered.json: file that contains the export of the Node-RED diagram that receives packets from the PAN coordinator and sends them to ThingSpeak. 
